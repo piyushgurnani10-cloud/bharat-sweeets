@@ -1,0 +1,7 @@
+{
+  "name": "Bharat Sweets : Originals - Premium Indian Mithai",
+  "description": "An elegant, high-end e-commerce experience for authentic Indian sweets and savouries, featuring an AI Mithai Sommelier for personalized recommendations.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

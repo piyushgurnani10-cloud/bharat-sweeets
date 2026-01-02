@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharat Sweets : Originals | Premium Mithai</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-olive: #8A8635;
+            --color-red: #AA2B1D;
+            --color-orange: #CC561E;
+            --color-mustard: #F3CF7A;
+            --color-cream: #FFFAEC;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--color-cream);
+            color: var(--color-red);
+        }
+        .bg-palette-olive { background-color: var(--color-olive); }
+        .text-palette-olive { color: var(--color-olive); }
+        .bg-palette-red { background-color: var(--color-red); }
+        .text-palette-red { color: var(--color-red); }
+        .bg-palette-orange { background-color: var(--color-orange); }
+        .text-palette-orange { color: var(--color-orange); }
+        .bg-palette-mustard { background-color: var(--color-mustard); }
+        .bg-palette-cream { background-color: var(--color-cream); }
+        
+        .heritage-pattern {
+            background-image: radial-gradient(var(--color-orange) 20%, transparent 20%),
+                              radial-gradient(var(--color-orange) 20%, transparent 20%);
+            background-position: 0 0, 10px 10px;
+            background-size: 20px 20px;
+        }
+
+        .floral-tile {
+            width: 40px;
+            height: 40px;
+            background-color: var(--color-red);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .floral-tile::after {
+            content: '✦';
+            color: var(--color-mustard);
+            font-size: 20px;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.34.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
